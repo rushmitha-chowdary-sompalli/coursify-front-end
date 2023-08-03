@@ -1,0 +1,192 @@
+/* Custom styles for the recruitment startup website */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: #3498db;
+}
+
+a:hover {
+  color: #2980b9;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #3498db;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.hero-section .btn {
+  font-size: 1.2rem;
+  background-color: #2980b9;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.hero-section .btn:hover {
+  background-color: #2c3e50;
+}
+
+/* Slideshow Section */
+.slideshow-section {
+  padding: 100px 0;
+  background-color: #f5f5f5;
+}
+
+/* Carousel Styles */
+.carousel-inner .carousel-item .row {
+  display: flex;
+}
+
+.carousel-inner .carousel-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-inner .carousel-item img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+/* About Section */
+.about-section {
+  padding: 100px 0;
+  background-color: #ecf0f1;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  color: #3498db;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+}
+
+.about-section img {
+  width: 50%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-section img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Services Section */
+.services-section {
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.services-section h2 {
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  color: #3498db;
+}
+
+.services-section p {
+  font-size: 1.1rem;
+}
+
+.services-section .col-md-4 {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.services-section .col-md-4:hover {
+  transform: translateY(0);
+}
+
+.services-section .col-md-4 i {
+  margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 100px 0;
+  background-color: #ecf0f1;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  color: #3498db;
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+}
+
+.contact-section img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-section img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#contactForm {
+  margin-top: 20px;
+}
+
+/* Footer Section */
+.footer-section {
+  padding: 50px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-section p {
+  margin: 0;
+  color: #ccc;
+}
+
+/* Carousel Styles */
+.carousel-inner img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+}
